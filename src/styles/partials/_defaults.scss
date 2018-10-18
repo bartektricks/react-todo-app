@@ -1,0 +1,9 @@
+/* Base */
+$base-size: 10 !default;
+$font-size: ($base-size * 1px) !default;
+
+/* Font Stack */
+$primary-font: 'Source Sans Pro' !default;
+
+/* Transition */
+$ease-cubic: cubic-bezier(.17, .72, .74, .76);

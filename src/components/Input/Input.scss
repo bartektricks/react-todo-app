@@ -1,0 +1,68 @@
+$_BORDER_RADIUS: 25 !default;
+$_BUTTON_HEIGHT: 48 !default;
+$_BORDER_WIDTH: 2px !default;
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex: 0 0 auto;
+  margin: auto auto 0;
+  
+  .input-wrapper {
+    position: relative;
+    display: flex;
+    min-height: remcalc($_BUTTON_HEIGHT);
+    padding: 0 remcalc(80) 0 0;
+    border-width: $_BORDER_WIDTH 0 $_BORDER_WIDTH $_BORDER_WIDTH;
+    border-style: solid;
+    border-color: $white;
+    border-radius: remcalc($_BORDER_RADIUS);
+  }
+}
+
+.task-input,
+.add-task { 
+  font-family: 'Karla';
+
+  &:focus { outline: 0; }
+}
+
+.task-input {
+  border: 0;
+  width: 94%;
+  padding: remcalc(10) 0 remcalc(10) remcalc(20);
+  color: $white;
+  background: transparent;
+  font-size: remcalc(20);
+  font-style: italic;
+
+  &::-webkit-input-placeholder{ color: $white; }
+  &::-ms-input-placeholder { color: $white; }
+  &::-moz-placeholder { color: $white; }
+  
+  &::-moz-placeholder { 
+    color: $white;
+    opacity: 1;
+  }
+
+  &:placeholder-shown {
+    color: $white;
+    opacity: 1;
+  }
+}
+
+.add-task {
+  position: absolute;
+  right: -2px;
+  top: - $_BORDER_WIDTH;
+
+  height: calc(100% + #{2 * $_BORDER_WIDTH});
+  padding: 0 remcalc(30);
+  font-size: remcalc(26);
+  line-height: remcalc($_BUTTON_HEIGHT / 2);
+  color: $mountainmeadow;
+  background: $white;
+  border: $_BORDER_WIDTH solid $white;
+  border-radius: remcalc($_BORDER_RADIUS);
+  appearance: none;
+}

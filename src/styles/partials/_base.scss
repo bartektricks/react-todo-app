@@ -1,0 +1,19 @@
+html,
+body {
+  background: $mountainmeadow;
+  color: $white;
+  font-family: $primary-font;
+  font-size: $font-size;
+  height: 100%;
+  text-size-adjust: 100%;
+  user-select: none;
+  width: 100%;
+}
+
+.root-element { height: 100%; }
+
+/* Anti Aliasing for fonts */
+* {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,28 @@
+.list-wrapper { 
+  width: 100%;
+  margin: 0 0 remcalc(40);
+  font-size: remcalc(18);
+  overflow-y: auto;
+  flex: 1 1 100%;
+ }
+
+.list-element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 remcalc(14) 0;
+
+  .list-item { 
+    max-width: remcalc(260);
+
+    &:first-letter { text-transform: capitalize; }
+   }
+}
+
+.remove-item-icon {
+  $_SVG_SIZE: 10 !default;
+
+  display: block;
+  height: remcalc($_SVG_SIZE);
+  width: remcalc($_SVG_SIZE);
+}

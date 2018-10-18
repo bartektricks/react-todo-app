@@ -1,0 +1,17 @@
+.app-wrapper {
+  height: 100%;
+  padding: remcalc(30) 0;
+
+  .container {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 remcalc(20);
+    max-width: remcalc(330);
+
+    .components-wrapper {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+  }
+}

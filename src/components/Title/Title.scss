@@ -1,0 +1,16 @@
+.title {
+  display: block;
+  width: 100%;
+  padding: remcalc(13) remcalc(30);
+  margin: 0 auto remcalc(40);
+  max-width: remcalc(200);
+  border: 3px solid $white;
+
+  font-size: remcalc(32);
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+
+  flex: 0 0 auto;
+}
