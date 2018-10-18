@@ -1,19 +1,25 @@
-<img src='./src/assets/Icon_dark.svg' width='180' style='display: block; margin: 0 auto 20px;' />
+<p align='center'>
+  <img src='./src/assets/Icon_dark.svg' width='180'/>
+</p>
 
-###To Do React App
+## To Do React App
 
 This app uses localStorage to keep the data and also htmlSanitize to sanitize the entered text. 
 
-####Allowed tags
+### Allowed tags
 - &lt;b&gt;
 - &lt;strong&gt;
 - &lt;i&gt;
 - &lt;em&gt;
 
-####Run locally
->yarn start
->npm start
-####or
+### Run locally
+
+> yarn start
+
+> npm start
+
+### or
+
 Check it out on [Heroku](https://mysterious-temple-73532.herokuapp.com/)
 
 ---
