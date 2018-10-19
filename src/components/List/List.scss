@@ -12,11 +12,7 @@
   justify-content: space-between;
   margin: 0 0 remcalc(14) 0;
 
-  .list-item { 
-    max-width: remcalc(260);
-
-    &:first-letter { text-transform: capitalize; }
-   }
+  .list-item { max-width: remcalc(260); }
 }
 
 .remove-item-icon {

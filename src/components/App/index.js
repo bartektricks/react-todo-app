@@ -32,9 +32,13 @@ class App extends Component {
     }
   }
 
+  capitalizeText = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+
   handleChange = (e) => {
     this.setState({
-      currentItem: { key: Date.now(), text: e.target.value }
+      currentItem: { key: Date.now(), text: this.capitalizeText(e.target.value) }
     })
   }
 
