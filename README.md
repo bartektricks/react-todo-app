@@ -18,10 +18,6 @@ This app uses localStorage to keep the data and also htmlSanitize to sanitize th
 
 > npm start
 
-### or
-
-Check it out on [Heroku](https://mysterious-temple-73532.herokuapp.com/)
-
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
